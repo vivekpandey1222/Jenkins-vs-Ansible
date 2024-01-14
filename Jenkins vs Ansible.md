@@ -382,13 +382,11 @@ After unlocking Jenkins, costomise Jenkins page appeaars and you can click on **
   
 ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/d29f23b3-a984-44bb-ac7f-c8e516a7c474)
 
+# Jenkins Dashboard
 
 * Now you can see the home page of Jenkins:
-  
+
 ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/9d3b5738-e81f-482d-a199-8f65e2313ca6)
-
-
-# Jenkins Dashboard
 
 **Configuration Panal**
 * New Item

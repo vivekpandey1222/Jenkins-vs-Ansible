@@ -347,10 +347,9 @@ vivek\@vivek-HP-EliteBook-840-G2:\~$
 
 # Access Jenkins 
 
-* Now you can access the Nagios web interface by opening a web browser and navigating to **http:localhost:8080** and open Jenkins with password which created when you are installing Jenkins.
+* Now you can access the Jenkins web interface by opening a web browser and navigating to **http:localhost:8080** and open Jenkins with password which created when you are installing Jenkins.
   
 ![](<Screenshot from 2024-01-01 15-08-43.png>)
-
 * To know the password.
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -522,9 +521,10 @@ vivek@vivek-HP-EliteBook-840-G2:/var/lib/jenkins/workspace$
 * Under the "Build Triggers" section, check the box for "Build periodically".
 * In the "Schedule" field, enter a cron-like expression to define when the job should run.
 * Every one minutes :*/1 * * * *.
-![Alt text](<Screenshot from 2024-01-14 14-32-33.png>)
+![Uploading Screenshot from 2024-01-14 14-32-33.png…]()
+
 * Now we will wait and see the autometic build job.
-![Alt text](<Screenshot from 2024-01-14 14-35-14.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/a605c3b1-3cdd-4242-8057-f67d6458744a)
 
 # Poll SCM
 Poll SCM is a build trigger that periodically checks a source code management (SCM) system for any changes and triggers a new build if it finds any. This is a common way to implement continuous integration (CI), where code changes are automatically integrated and tested as soon as they are pushed to the repository.
@@ -533,10 +533,14 @@ Poll SCM is a build trigger that periodically checks a source code management (S
 * Create a new job.
 * Go to configuration settings and select the git option and paste the github url.
 * After go to Build trigger and click on poll scm option and set the time accoerding to need then save and apply.
-![Alt text](<Screenshot from 2024-01-14 14-56-09.png>)
+ 
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/b6897902-4e9a-43fb-b7b9-6216d4108ad1)
+
+
 * Now you can see the result when we update the repository on guthub.
 
-![](<Screenshot from 2024-01-14 15-01-30.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/e9bead27-f0ae-4e1d-835e-c07ac2819a15)
+
 
 
 

@@ -349,7 +349,7 @@ vivek\@vivek-HP-EliteBook-840-G2:\~$
 
 * Now you can access the Nagios web interface by opening a web browser and navigating to **http:localhost:8080** and open Jenkins with password which created when you are installing Jenkins.
   
-![Alt text](<Screenshot from 2024-01-01 15-08-43.png>)
+![](<Screenshot from 2024-01-01 15-08-43.png>)
 
 * To know the password.
 ```

@@ -528,11 +528,12 @@ vivek@vivek-HP-EliteBook-840-G2:/var/lib/jenkins/workspace$
 
 * Under the "Build Triggers" section, check the box for "Build periodically".
 * In the "Schedule" field, enter a cron-like expression to define when the job should run.
-* Every one minutes :*/1 * * * *.
+* Shedule timing every one minutes :*/1 * * * *.
+  
 ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/91155e0b-3d1a-4b19-b5a7-db1be01275cc)
 
-
 * Now we will wait and see the autometic build job.
+  
 ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/a605c3b1-3cdd-4242-8057-f67d6458744a)
 
 # Poll SCM
@@ -544,7 +545,6 @@ Poll SCM is a build trigger that periodically checks a source code management (S
 * After go to Build trigger and click on poll scm option and set the time accoerding to need then save and apply.
  
 ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/b6897902-4e9a-43fb-b7b9-6216d4108ad1)
-
 
 * Now you can see the result when we update the repository on guthub.
 

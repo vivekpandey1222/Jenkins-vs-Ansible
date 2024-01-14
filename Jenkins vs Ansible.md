@@ -349,7 +349,8 @@ vivek\@vivek-HP-EliteBook-840-G2:\~$
 
 * Now you can access the Jenkins web interface by opening a web browser and navigating to **http:localhost:8080** and open Jenkins with password which created when you are installing Jenkins.
   
-![](<Screenshot from 2024-01-01 15-08-43.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/b165f34b-3a5e-4c31-870e-5db82481ba5c)
+
 * To know the password.
 ```
 sudo cat /var/lib/jenkins/secrets/initialAdminPassword
@@ -362,7 +363,7 @@ vivek@vivek-HP-EliteBook-840-G2:~$
 ```
 * To Unlock Jenkins page, paste this password into the **Administrator password** field and click **Continue**
 
-![Alt text](<Screenshot from 2024-01-01 15-10-02.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/e2006b33-accd-4000-bd35-56f1307d2e97)
 
 * **Customizing Jenkins with plugins**
 
@@ -375,15 +376,17 @@ After unlocking Jenkins, costomise Jenkins page appeaars and you can click on **
 
 * When the Create First Admin User page appears, specify the details for your administrator user in the respective fields and click Save and continue.
   
-![Alt text](image.png)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/8ad4655a-b9a2-4095-b1a5-847396015f42)
 
 * When the Jenkins is ready page appears, click Start using Jenkins.
   
-![Alt text](image-1.png)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/d29f23b3-a984-44bb-ac7f-c8e516a7c474)
+
 
 * Now you can see the home page of Jenkins:
   
-![Alt text](<Screenshot from 2024-01-01 15-46-24.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/9d3b5738-e81f-482d-a199-8f65e2313ca6)
+
 
 # Jenkins Dashboard
 
@@ -396,51 +399,52 @@ After unlocking Jenkins, costomise Jenkins page appeaars and you can click on **
 
 **New item**: Click on this option and create a new job.
 
-![Alt text](<Screenshot from 2024-01-02 13-01-29.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/d44c540a-5cca-46e9-8075-9aeeefa0326b)
 
 **People**: You can see about Jenkins users.
 
-![Alt text](<Screenshot from 2024-01-02 13-02-22.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/1bdc6814-da93-4bf4-a204-90a6349f7ae7)
 
 **Build history**: To see record of all the times your software project was built and tested.
 
-![Alt text](<Screenshot from 2024-01-02 13-09-15.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/4034b5ca-fd72-4afc-8872-2210ea513083)
 
 **New view**: It help to orgnize the project.like- catogries job .
 
-![Alt text](<Screenshot from 2024-01-02 13-09-42.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/fe3c533f-6bbc-4b9d-ba9d-7825742974ed)
 
 **Manage Jenkins**: Jenkins administrative tasks can be performed from the Manage Jenkins
 
-![Alt text](<Screenshot from 2024-01-02 13-09-30.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/6dfaa45d-c469-4870-9328-f2ffab7a98cb)
 
 # Create first job 
 Click on "New Item" and enter a name for job and Select the "Freestyle project" and click on "ok" then show the configuration General setting option schroll down and click on "build step" and select the "excecute shell" option and create the simple job like echo "hello world" then apply and save.
-![Alt text](<Screenshot from 2024-01-11 10-22-15.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/3b2a33cd-51b5-4d70-8400-c25979a9edba)
 
-![Alt text](<Screenshot from 2024-01-11 10-22-23.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/91ecf5aa-b850-4cb3-a462-cee93e7b1753)
 
-![Alt text](<Screenshot from 2024-01-11 10-22-29.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/5acf83e1-d5f1-414b-bb4a-bca26aa0a02c)
 
 **Build and run the job**
 Make sure have on the dashboard and click on the job name "demo7" there be a dropdown option from there select the "Build now" option.
-![Alt text](<Screenshot from 2024-01-11 10-42-52.png>)  
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/6e0b7af2-b725-4573-8658-601b485e6e35)
 
-![Alt text](<Screenshot from 2024-01-11 10-43-22.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/2eb5d6a1-4cdb-4def-9629-533a02dc1be7)
 
 Now click on the "demo7" and then show the left like "#1" option and click on it.
-![Alt text](<Screenshot from 2024-01-11 10-57-12.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/c22fc5ed-bf9a-4ef8-9fc1-2bac1d852460)
 
 Show the dashboard like this.
-![Alt text](<Screenshot from 2024-01-11 10-59-54.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/6b61a259-4091-4fef-acec-bd3ec7d233ce)
 
 Now Click on the "console output" then show the Output of echo "hello world".
-![Alt text](<Screenshot from 2024-01-11 11-08-30.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/ef13a74d-c6dc-474c-8084-887724db405f)
 
 If you want to change the command and add on this.
 Click on jobs like "demo7" dropdown and click on configure option then you can see the configuration general setting and scroll down and change on execute shell.
 
-![Alt text](<Screenshot from 2024-01-11 13-43-07.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/94b90576-3a4d-4a88-ad24-4fcc8ab420f4)
+
 
 If you want to see the output of these command go to
 terminal and follow these step.
@@ -507,21 +511,26 @@ vivek@vivek-HP-EliteBook-840-G2:/var/lib/jenkins/workspace$
 
 * In your Jenkins job configuration, under the "Source Code Management" section, select "Git".
 * Enter the URL of your Git repository.
-  ![Alt text](<Screenshot from 2024-01-14 13-26-04.png>)
+ ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/e782b14d-33c0-4f84-8844-1e7d327b0271)
+
 * select the branch (main).
-  ![Alt text](<Screenshot from 2024-01-14 13-39-22.png>)
+  ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/3b3c258e-d50a-4e48-aa92-f72f189e4447)
+
 * add the command as your need in execute shell then save and apply.
 * after this process now build the job and run.You can see the output click on console output.
-  ![Alt text](<Screenshot from 2024-01-14 13-37-56.png>)
   
+ ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/b7a7e2a3-7556-4748-939c-e28528dbb892)
+
 # Build periodically
  Build periodically in Jenkins means scheduling a job to run automatically at specific times.
 * Go to the configuration page of the job you want to schedule.like-
-![Alt text](<Screenshot from 2024-01-14 14-10-33.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/e4e58869-3a51-4a7d-a3ed-e6b85434ca5d)
+
 * Under the "Build Triggers" section, check the box for "Build periodically".
 * In the "Schedule" field, enter a cron-like expression to define when the job should run.
 * Every one minutes :*/1 * * * *.
-![Uploading Screenshot from 2024-01-14 14-32-33.png…]()
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/91155e0b-3d1a-4b19-b5a7-db1be01275cc)
+
 
 * Now we will wait and see the autometic build job.
 ![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/a605c3b1-3cdd-4242-8057-f67d6458744a)
@@ -652,13 +661,14 @@ Open with text editor “vim” and add the hostname which you want to manage.
 ```
 vim inventory.ini
 ```
-![Alt text](<Screenshot from 2024-01-08 12-20-22.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/f2b6c498-1c01-413f-aef4-fd1470474e78)
 
 Create the simple playbook and run:
 ```
 vim simple.yml
 ```
-![Alt text](<Screenshot from 2024-01-08 12-46-18.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/f8dc8a9a-e6ad-4872-8442-5673221a27ad)
+
 **Vim**: vim is a text editor.
 
 **---**:It denotes the start of a YAML document.
@@ -677,7 +687,8 @@ vim simple.yml
 ```
 ansible-playbook -i inventory.ini simple.yml
 ```
-![Alt text](<Screenshot from 2024-01-08 15-52-43.png>)
+![](https://github.com/vivekpandey1222/Jenkins-vs-Ansible/assets/151363790/7a8a70a0-92b4-4638-9d89-ed0c36e27f8f)
+
 
 **ansible-playbook**:This is the command used to run Ansible playbooks.
 

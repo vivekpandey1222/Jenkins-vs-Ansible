@@ -194,7 +194,7 @@ OpenJDK 64-Bit Server VM (build 11.0.21+9-post-Ubuntu-0ubuntu120.04, mixed mode,
 
 * **Download Jenkins Repository Key:**
 ```
-sudo wget -O /usr/share/keyrings/jenkins-keyring.asc \\<https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key>
+sudo wget -O /usr/share/keyrings/jenkins-keyring.asc https://pkg.jenkins.io/debian-stable/jenkins.io-2023.key
 ```
 **Output:**
 ```
